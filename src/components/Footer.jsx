@@ -10,11 +10,6 @@ const Footer = () => {
                 <div className="footer-section">
                     <h3>Siva Tech Services</h3>
                     <p>Empowering businesses with modern tech solutions.</p>
-                    <div className="social-icons">
-                        <a href="#" className="social-icon"><FaLinkedin /></a>
-                        <a href="#" className="social-icon"><FaGithub /></a>
-                        <a href="#" className="social-icon"><FaTwitter /></a>
-                    </div>
                 </div>
 
                 <div className="footer-section">
