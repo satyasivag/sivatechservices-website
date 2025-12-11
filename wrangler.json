@@ -5,5 +5,9 @@
         "directory": "./dist",
         "binding": "ASSETS"
     },
+    "routes": [
+        "sivatechservices.com.au/*",
+        "www.sivatechservices.com.au/*"
+    ],
     "main": "src/worker.js"
 }
