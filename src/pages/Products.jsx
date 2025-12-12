@@ -41,18 +41,7 @@ const Products = () => {
                             >
                                 Visit Website
                             </a>
-                            <div style={{
-                                display: 'inline-block',
-                                background: '#e3f2fd',
-                                color: '#1976d2',
-                                padding: '5px 12px',
-                                borderRadius: '20px',
-                                fontSize: '0.8rem',
-                                fontWeight: '600',
-                                marginLeft: '10px'
-                            }}>
-                                Launching Soon
-                            </div>
+
                         </div>
                     </div>
 
