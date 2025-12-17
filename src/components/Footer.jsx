@@ -10,6 +10,14 @@ const Footer = () => {
                 <div className="footer-section">
                     <h3>Siva Tech Services</h3>
                     <p>Empowering businesses with modern tech solutions.</p>
+                    <p style={{ marginTop: '15px' }}>
+                        <a href="tel:+61468469320" style={{ color: 'inherit', textDecoration: 'none', display: 'block', marginBottom: '10px' }}>
+                            +61 468 469 320
+                        </a>
+                        <a href="https://linkedin.com/company/siva-tech-services/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', fontSize: '1.5rem' }}>
+                            <FaLinkedin />
+                        </a>
+                    </p>
                 </div>
 
                 <div className="footer-section">
