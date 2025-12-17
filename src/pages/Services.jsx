@@ -3,6 +3,10 @@ import React from 'react';
 const Services = () => {
     const services = [
         {
+            title: "Mobile App Development",
+            description: "Native and Cross-platform mobile solutions (iOS & Android). We build intuitive, high-performance apps using modern cross-platform technologies to extend your business reach."
+        },
+        {
             title: "Web App Development",
             description: "Full-cycle web application development using React, Node.js, and modern frameworks. We build scalable, responsive, and high-performance applications tailored to your business needs."
         },

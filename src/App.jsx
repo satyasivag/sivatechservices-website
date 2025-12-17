@@ -5,12 +5,13 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import Products from './pages/Products';
 import Contact from './pages/Contact';
-
+import SEO from './components/SEO';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <SEO />
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
