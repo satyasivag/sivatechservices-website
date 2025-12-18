@@ -51,6 +51,35 @@ const SEO = ({
             <meta name="twitter:image" content={image} />
 
             <link rel="canonical" href={canonicalUrl} />
+
+            {/* Structured Data (JSON-LD) for Google Logo & Knowledge Graph */}
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Organization",
+                            "name": "Siva Tech Services Pty Ltd",
+                            "url": "https://sivatechservices.com.au",
+                            "logo": "https://sivatechservices.com.au/logo.svg",
+                            "sameAs": [
+                                "https://www.linkedin.com/company/siva-tech-services",
+                                "https://www.facebook.com/sivatechservices"
+                            ]
+                        },
+                        {
+                            "@type": "ProfessionalService",
+                            "name": "Siva Tech Services",
+                            "image": "https://sivatechservices.com.au/logo.svg",
+                            "priceRange": "$$$",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "AU"
+                            }
+                        }
+                    ]
+                })}
+            </script>
         </Helmet>
     );
 };
