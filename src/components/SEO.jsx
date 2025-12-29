@@ -6,7 +6,7 @@ const SEO = ({
     description = 'Transforming ideas into digital reality. We specialize in Mobile App Development, Custom Software Solutions, and Cloud Architecture for Australian businesses.',
     keywords = [],
     author = 'Siva Tech Services Pty Ltd',
-    image = '/logo.png', // Ensure this exists or use a default
+    image = '/icon-512.png', // Ensure this exists or use a default
     url,
     type = 'website'
 }) => {
@@ -61,7 +61,7 @@ const SEO = ({
                             "@type": "Organization",
                             "name": "Siva Tech Services Pty Ltd",
                             "url": "https://sivatechservices.com.au",
-                            "logo": "https://sivatechservices.com.au/logo.svg",
+                            "logo": "https://sivatechservices.com.au/icon-512.png",
                             "sameAs": [
                                 "https://www.linkedin.com/company/siva-tech-services",
                                 "https://www.facebook.com/sivatechservices"
@@ -70,7 +70,7 @@ const SEO = ({
                         {
                             "@type": "ProfessionalService",
                             "name": "Siva Tech Services",
-                            "image": "https://sivatechservices.com.au/logo.svg",
+                            "image": "https://sivatechservices.com.au/icon-512.png",
                             "priceRange": "$$$",
                             "address": {
                                 "@type": "PostalAddress",
