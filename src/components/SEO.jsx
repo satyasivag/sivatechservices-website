@@ -22,8 +22,8 @@ const SEO = ({
         'IT Consulting',
         'Web Development',
         'Cloud Solutions',
-        'React Native Developers',
-        'Siva Tech Services',
+        'StaffLoop',
+        'StaffLoop Workforce Management',
         ...keywords
     ].join(', ');
 

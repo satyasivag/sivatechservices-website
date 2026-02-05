@@ -37,7 +37,7 @@ const Contact = () => {
                             style={{ padding: '12px', borderRadius: '5px', border: '1px solid #ddd' }}
                         >
                             <option value="">Select Service</option>
-                            <option value="ProxiShift Inquiry">ProxiShift Inquiry</option>
+                            <option value="StaffLoop Inquiry">StaffLoop Inquiry</option>
                             <option value="Web Development">Web Development</option>
                             <option value="Cloud Migration">Cloud Migration</option>
                             <option value="DevOps">DevOps</option>

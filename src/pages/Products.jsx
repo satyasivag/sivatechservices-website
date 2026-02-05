@@ -1,5 +1,5 @@
 import React from 'react';
-import proxishiftLogo from '../assets/proxishift-logo.png';
+import staffloopLogo from '../assets/staffloop-logo.png';
 
 const Products = () => {
     return (
@@ -12,7 +12,7 @@ const Products = () => {
 
                 <div style={{ display: 'grid', gap: '30px', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
 
-                    {/* ProxiShift Product Card */}
+                    {/* StaffLoop Product Card */}
                     <div style={{
                         background: '#fff',
                         padding: '40px',
@@ -25,23 +25,31 @@ const Products = () => {
                         alignItems: 'center'
                     }}>
                         <div style={{ marginBottom: '20px', height: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                            <img src={proxishiftLogo} alt="ProxiShift" style={{ maxHeight: '100%', maxWidth: '100%' }} />
+                            <img src={staffloopLogo} alt="StaffLoop" style={{ maxHeight: '100%', maxWidth: '100%' }} />
                         </div>
-                        <h3 style={{ marginBottom: '10px', fontSize: '1.5rem', color: '#333' }}>ProxiShift</h3>
+                        <h3 style={{ marginBottom: '10px', fontSize: '1.5rem', color: '#333' }}>StaffLoop</h3>
                         <p style={{ color: '#666', marginBottom: '20px', fontSize: '0.95rem' }}>
                             Workforce Management Simplified. The ultimate solution for NDIS, Security, and Cleaning industries.
                         </p>
                         <div style={{ marginTop: 'auto' }}>
-                            <a
-                                href="https://proxishift.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="btn btn-primary"
-                                style={{ display: 'inline-block', marginBottom: '15px' }}
-                            >
-                                Visit Website
-                            </a>
+                            {(() => {
+                                const isAustralia = typeof Intl !== 'undefined' &&
+                                    Intl.DateTimeFormat().resolvedOptions().timeZone.includes('Australia');
 
+                                const link = isAustralia ? "https://staffloop.com.au" : "https://staffloop.app";
+
+                                return (
+                                    <a
+                                        href={link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="btn btn-primary"
+                                        style={{ display: 'inline-block', width: '100%' }}
+                                    >
+                                        Visit StaffLoop
+                                    </a>
+                                );
+                            })()}
                         </div>
                     </div>
 
